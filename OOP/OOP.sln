@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{BCB10D54-61B3-40FF-8F8E-670BFC1C2459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{E80D4640-7CE3-4B3C-B5AB-687500F426AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BCB10D54-61B3-40FF-8F8E-670BFC1C2459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB10D54-61B3-40FF-8F8E-670BFC1C2459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB10D54-61B3-40FF-8F8E-670BFC1C2459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80D4640-7CE3-4B3C-B5AB-687500F426AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80D4640-7CE3-4B3C-B5AB-687500F426AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80D4640-7CE3-4B3C-B5AB-687500F426AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80D4640-7CE3-4B3C-B5AB-687500F426AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
