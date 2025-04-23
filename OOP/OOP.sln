@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{E80D4640-7CE3-4B3C-B5AB-687500F426AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{7A38B676-20DD-4DD1-A842-7284424BFECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E80D4640-7CE3-4B3C-B5AB-687500F426AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E80D4640-7CE3-4B3C-B5AB-687500F426AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E80D4640-7CE3-4B3C-B5AB-687500F426AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A38B676-20DD-4DD1-A842-7284424BFECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A38B676-20DD-4DD1-A842-7284424BFECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A38B676-20DD-4DD1-A842-7284424BFECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A38B676-20DD-4DD1-A842-7284424BFECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
