@@ -1,9 +1,8 @@
 ﻿namespace Inheritance
 {
-    public class Person
+    public class Member
     {
-
-        public Person(string firstName, string lastName, int age)
+        public Member(string firstName, string lastName, int age)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -15,14 +14,9 @@
         public int Age { get; set; }
 
 
-        public virtual string Work()
+        public virtual string ReportMemberInfo()
         {
-            return "Person is working.";
-        }
-
-        public virtual string Walk()
-        {
-            return "Person is walking.";
-        }
+            return $"First name: {FirstName}, Last name: {LastName}, Age: {Age}.";
+        }            
     }
 }
