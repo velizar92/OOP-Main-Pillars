@@ -34,6 +34,10 @@ Here's a quick summary of the benefits:
 and the correct overridden methods will be called at runtime.
 */
 
+/*At run time, objects of a derived class may be treated as objects of a base class in places, such as method parameters and collections or arrays.
+  When this occurs, the object's declared type is no longer identical to its run-time type.
+*/
+
 static void ShowAllMembers(List<Member> members)
 {
     foreach (var member in members)
