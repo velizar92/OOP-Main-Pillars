@@ -36,6 +36,11 @@ and the correct overridden methods will be called at runtime.
 
 /*At run time, objects of a derived class may be treated as objects of a base class in places, such as method parameters and collections or arrays.
   When this occurs, the object's declared type is no longer identical to its run-time type.
+
+  Base classes may define and implement virtual methods.
+  Derived classes can override.
+  They provide their own definition and implementation.
+  At run-time, the CLR looks up the run-time type of the object and invokes that override of the virtual method.
 */
 
 static void ShowAllMembers(List<Member> members)
